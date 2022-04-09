@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>Contact me</title>
+    </head>
+    <body>
+        <h2>YONG CHAN's Contact Details</h2>
+        <p>Email : bs96064@daum.net</p>
+        <p>Address : 서울시 영등포구 선유동1로 33, 3층</p>
+        <p>Telephone Number : 02-322-4692</p>
+        <hr>
+        <!--양식에 넣기-->
+        <form class="" action="mailto:bs96064@daum.net" method="post" enctype="text/plain">
+            <!--action과 method submit 이후의 작동을 설정함-->
+            <!--enctype은 메일 글자가 안깨지게 지정해줌-->
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value=""><!--텍스트 박스-->
+            <br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value="">
+            <br>
+            <label>Your Message:</label>
+            <br>
+            <textarea name="yourMessage" row="10" col="30"></textarea>
+            <br>
+            <input type="submit" name=""><!--submit 버튼화됨 / value 없애줘야 submit이 글씨로 들어감-->
+
+            <!--
+            <input type="password" name="" value=""> 디폴트로 타이핑을 매스킹해줌
+            <input type="checkbox" name="" value="">
+            <input type="color" name="" value=""> 색깔선택
+            <input type="file"> 파일업로딩
+            <input type="date"> 달력에서 날짜 선택
+            <input type="radio"> 라디어 버튼 넣기
+            <input type="range"> 범위에서 선택
+            -->
+        </form>
+
+    </body>
+</html>
